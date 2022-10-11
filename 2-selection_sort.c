@@ -1,5 +1,8 @@
 #include "sort.h"
 
+void swap_ints(int *a, int *b);
+void selection_sort(int *array, size_t size);
+
 /**
  * selection_sort - Sort an array of integers in ascending order
  *                  using the selection sort algorithm.
